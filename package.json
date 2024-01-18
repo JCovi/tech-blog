@@ -3,7 +3,7 @@
     "seeds": "node seeds/index.js",
     "start": "node server.js",
     "sequelize": "sequelize",
-    "sequelize:migrate": "sequelize db:migrate"
+    "sequelize:migrate": "sequelize --env production db:migrate"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
