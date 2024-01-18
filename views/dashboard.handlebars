@@ -1,0 +1,19 @@
+<div class="card-header text-center bg-warning">
+    <h2 style="color: #4D4D4D;">{{user.username}} Posts</h2>
+</div>
+
+{{#each posts as |post|}}
+    {{> dash-details}}
+{{/each}}
+
+<div class="d-grid gap-2 col-6 mx-auto">
+    <div class="d-flex flex-row justify-content-between">
+        <div class="card text-center w-100 p-3" style="background-color: #FFE5CC;">
+            <a href="/dashboard/newPosts" style="text-decoration: none;">
+                <button id="newPostBtn" class="btn btn-warning" value="submit" type="button" style="color: #4D4D4D;"> + New Post</button>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src="/js/bootstrap.js"></script>
