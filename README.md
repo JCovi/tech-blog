@@ -14,7 +14,7 @@ Clone this repository and download the needed packages.
 
 ## Check it out
 
-The application is deployed on Heroku. You can access it [here](YOUR_HEROKU_APP_LINK).
+The application is deployed on Heroku. You can access it [here](https://radiant-lake-16054-ed30fa67620f.herokuapp.com/).
 
 ## Technologies Used
 
