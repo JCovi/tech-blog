@@ -68,7 +68,7 @@ router.get('/edit/:id', async (req, res) => {
 
 router.get('/dashboard/newPosts', withAuth, (req, res) => {
   try {
-    res.render('newPost', { existingPost: false });
+    res.render('newpost', { existingPost: false });
   } catch (err) {
     res.status(500).json(err);
   }
