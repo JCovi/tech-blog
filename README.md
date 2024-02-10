@@ -8,7 +8,8 @@ This is a full stack tech blog project. Create your profile, post, edit and comm
 
 ## Screenshot
 
-![Application Screenshot](C:\Users\joshp\OneDrive\Pictures\Screenshots\Screenshot 2024-02-10 150228.png)
+![Screenshot 2024-02-10 150228](https://github.com/JCovi/tech-blog/assets/112135483/e27a5dc2-2f65-4ed0-be0f-abe784050fe1)
+
 
 ## Features
 
