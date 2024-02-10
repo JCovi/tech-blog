@@ -6,6 +6,10 @@ A blog for techy people
 
 This is a full stack tech blog project. Create your profile, post, edit and comment on other creators post!
 
+## Screenshot
+
+![Application Screenshot](C:\Users\joshp\OneDrive\Pictures\Screenshots\Screenshot 2024-02-10 150228.png)
+
 ## Features
 
 ## Installation
