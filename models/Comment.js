@@ -1,3 +1,4 @@
+// Defines the Comment model, including its attributes and associations with User and Post models.
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 

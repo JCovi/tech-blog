@@ -1,3 +1,4 @@
+// Defines an Express router to handle CRUD operations for posts, including creating, updating, and deleting posts, with authentication middleware to ensure only authenticated users can perform these actions.
 const router = require('express').Router();
 const Post = require('../../models/Post');
 const withAuth = require('../../utils/auth');

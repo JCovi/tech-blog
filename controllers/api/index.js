@@ -1,3 +1,4 @@
+// Defines an Express router to handle various routes related to posts, users, and comments by using separate route modules.
 const router = require('express').Router();
 
 const postRoutes = require('./post-routes.js');

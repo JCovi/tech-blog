@@ -1,3 +1,4 @@
+// Sends a request to delete a post when the delete button is clicked.
 const delPost = async (event) => {
     event.preventDefault();
 

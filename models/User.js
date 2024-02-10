@@ -1,3 +1,4 @@
+// Defines the User model with attributes and associations, including password hashing using bcrypt.
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const bcrypt = require('bcrypt');

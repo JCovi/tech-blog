@@ -1,3 +1,4 @@
+// Defines the Post model with its attributes and associations, specifying the primary key, data types, and foreign keys.
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 

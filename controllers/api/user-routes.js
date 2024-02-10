@@ -1,3 +1,4 @@
+// Defines routes for user authentication, including user sign-up, login, and logout functionalities, utilizing session management for user authentication state.
 const router = require('express').Router();
 const { User } = require('../../models');
 

@@ -1,3 +1,4 @@
+// Handles the submission of a login form by sending a POST request to authenticate the user.
 async function loginFormHandler(event) {
     event.preventDefault();
 

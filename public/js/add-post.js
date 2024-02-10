@@ -1,4 +1,5 @@
 
+// Handles form submission for creating a new post, sending a POST request to the server.
 async function newFormHandler(event) {
     event.preventDefault();
     const post_title = document.getElementById('post_title').value;

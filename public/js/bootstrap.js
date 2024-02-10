@@ -1,4 +1,5 @@
 
+// Dynamically creates and displays an alert message based on the provided message and type.
 const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 
 const alert = (message, type) => {

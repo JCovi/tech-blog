@@ -1,3 +1,4 @@
+// Seeds the Comment model with predefined comment data.
 const { Comment } = require('../models');
 
 const commentData = [

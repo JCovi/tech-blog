@@ -1,3 +1,4 @@
+// Defines the associations between User, Post, and Comment models, specifying foreign keys and cascade deletion.
 const Post = require('./Post');
 const User = require('./User');
 const Comment = require('./Comment');

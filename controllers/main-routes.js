@@ -1,3 +1,4 @@
+// Defines routes for rendering the homepage, individual posts, user dashboard, post editing, and login/signup pages.
 const router = require('express').Router();
 const { Post, Comment, User } = require('../models');
 const withAuth = require('../utils/auth');

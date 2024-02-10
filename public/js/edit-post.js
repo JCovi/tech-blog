@@ -1,3 +1,4 @@
+// Handles the submission of an edit post form by sending a PUT request to update the post.
 async function editFormHandler(event) {
     event.preventDefault();
 

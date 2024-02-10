@@ -1,3 +1,4 @@
+// Handles the sign-up form submission by sending a POST request with user input data.
 const signUpFormHandler = async (event) => {
     event.preventDefault();
     const username = document.getElementById('usernameInput').value.trim();

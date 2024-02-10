@@ -1,3 +1,4 @@
+// Establishes a Sequelize connection to a MySQL database using environment variables, prioritizing a JAWSDB_URL for Heroku deployments.
 const Sequelize = require('sequelize');
 require('dotenv').config();
 

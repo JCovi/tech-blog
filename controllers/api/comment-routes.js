@@ -1,3 +1,4 @@
+// Defines an Express router for handling POST requests to create new comments, requiring authentication.
 const router = require('express').Router();
 const { Comment } = require('../../models');
 const withAuth = require('../../utils/auth');
